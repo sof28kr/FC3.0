@@ -4,11 +4,11 @@ import 'package:myapp/ui/theme/app_theme.dart';
 import 'package:myapp/ui/screens/formCompetencias.dart';
 
 void main() {
-  runApp(const meinapp());
+  runApp(const Myapp());
 }
 
-class meinapp extends StatelessWidget {
-  const meinapp({super.key});
+class Myapp extends StatelessWidget {
+  const Myapp({super.key});
 
   // This widget is the root of your application.
   @override
