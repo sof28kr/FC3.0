@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/ui/bloques/menu_items.dart';
+import 'package:myapp/ui/screens/formCompetencias.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -10,8 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Aplicativo"),
       ),
-      body: const _HomeView(),
-
+      body: const FormularioCompetencias(),
     );
   }
 }
@@ -27,7 +27,6 @@ class _HomeView extends StatelessWidget {
         final MenuItem = appMenuItems[index];
         return const Text("data");
       },
-
-      );
+    );
   }
 }
